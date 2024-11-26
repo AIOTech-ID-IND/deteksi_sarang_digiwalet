@@ -51,7 +51,7 @@ function base64EncodeImage(imageBuffer) {
 // Variabel file belum terdefinisi 
 // Contohnya:
 // var fileInput = document.getElementById('multiFiles');
-// file = fileInput.files[0];
+// var file = fileInput.files[0];
 
 // Deteksi Bulu
 const classes_bulu = ["BRS", "BR", "BST", "BS", "BBT", "BB", "BB2"];
