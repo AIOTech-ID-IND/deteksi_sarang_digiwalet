@@ -12,7 +12,7 @@ const modelPath_bentuk = 'models/model_bentuk_walet.onnx';
 // Model ONNX
 let model_bulu, model_bentuk
 
-// Membuat model ONNX sebagai variabel global
+// Memuat model ONNX sebagai variabel global
 async function initializeModels() {
     try {
         model_bentuk = await InferenceSession.create(modelPath_bentuk);
