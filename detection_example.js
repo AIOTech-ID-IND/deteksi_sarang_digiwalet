@@ -24,7 +24,7 @@ async function initializeModels() {
     }
 }
 
-// Panggil fungsi untuk menginisialisasi model saat aplikasi dimulai
+//  Inisilisasi model saat aplikasi dimulai
 initializeModels();
 
 // Fungsi untuk menghitung jumlah kelas dalam array hasil deteksi
