@@ -80,9 +80,9 @@ async function prepare_input(buf) {
 
   const input = new Float32Array(640 * 640 * 3);
   for (let i = 0; i < 640 * 640; ++i) {
-    input[i] = pixels[i * 4] / 255;
-    input[640 * 640 + i] = pixels[i * 4 + 1] / 255;
-    input[640 * 640 * 2 + i] = pixels[i * 4 + 2] / 255;
+    input[i] = pixels[i * 4 + 2] / 255; // Blue channel
+    input[640 * 640 + i] = pixels[i * 4 + 1] / 255; // Green channel
+    input[640 * 640 * 2 + i] = pixels[i * 4] / 255; // Red channel
   }
 
   return [input, img_width, img_height];
