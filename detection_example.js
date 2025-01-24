@@ -72,10 +72,11 @@ var jumlah_BBT = countClass(results_bulu[1], "BBT");
 var jumlah_BB = countClass(results_bulu[1], "BB");
 var jumlah_BB2 = countClass(results_bulu[1], "BB2");
 
-var jumlah_BR_4_kelas = jumlah_BRS + jumlah_BR;
-var jumlah_BS_4_kelas = jumlah_BST + jumlah_BS;
-var jumlah_BB_4_kelas = jumlah_BBT + jumlah_BB;
-var jumlah_BB2_4_kelas = jumlah_BB2;
+var jumlah_BR_4 = jumlah_BRS + jumlah_BR + jumlah_BST;
+var jumlah_BS_4 = jumlah_BS + jumlah_BBT;
+var jumlah_BB_4 = jumlah_BB;
+var jumlah_BB2_4 = jumlah_BB2;
+
 
 var jumlah_Mangkok = countClass(results_bentuk[1], "Mangkok");
 var jumlah_Oval = countClass(results_bentuk[1], "Oval");
