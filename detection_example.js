@@ -54,7 +54,7 @@ function base64EncodeImage(imageBuffer) {
 // var file = fileInput.files[0];
 
 // Deteksi Bulu
-const classes_bulu = ["BRS", "BR", "BST", "BS", "BBT", "BB", "BB2"];
+const classes_bulu = ["BR", "BR", "BR", "BS", "BS", "BB", "BB2"];
 const results_bulu = await detect_objects_on_image(file, model_bulu, classes_bulu);
 const base64_encoded_bulu = await base64EncodeImage(results_bulu[0]);
 
